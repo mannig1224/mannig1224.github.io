@@ -53,8 +53,8 @@ function getRandomQuote() {
   Every 3 seconds the quote and color functions will be called if the button isn't clicked.
 ***/
 
-let quoteTimer = setInterval('printQuote();', 3000);
-let colorTimer = setInterval('changeColor();', 3000);
+let quoteTimer = setInterval('printQuote();', 5000);
+let colorTimer = setInterval('changeColor();', 5000);
 
 
 
@@ -80,8 +80,8 @@ function printQuote() {
     clearInterval(quoteTimer);
     clearInterval(colorTimer);
 
-     quoteTimer = setInterval('printQuote();', 3000);
-     colorTimer = setInterval('changeColor();', 3000);
+     quoteTimer = setInterval('printQuote();', 5000);
+     colorTimer = setInterval('changeColor();', 5000);
 
 }
 /***
